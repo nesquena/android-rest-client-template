@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codepath.apps.restclienttemplate"
+    package="com.codepath.apps.plumtwitter"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,14 +8,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".RestApplication"
+        android:name="com.codepath.apps.plumtwitter.PlumTwitterApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
      
         <activity
-            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
+            android:name="com.codepath.apps.plumtwitter.LoginActivity"
             android:theme="@style/AppTheme"
             android:label="@string/app_name" >
             <intent-filter>
@@ -30,7 +30,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="cprest"
+                    android:host="codepathtweets"
                     android:scheme="oauth" />
             </intent-filter>
         </activity>

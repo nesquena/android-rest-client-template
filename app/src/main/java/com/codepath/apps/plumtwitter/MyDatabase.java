@@ -1,4 +1,4 @@
-package com.codepath.apps.restclienttemplate;
+package com.codepath.apps.plumtwitter;
 
 import com.raizlabs.android.dbflow.annotation.Database;
 
